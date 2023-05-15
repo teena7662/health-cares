@@ -10,20 +10,26 @@
     <link rel="stylesheet" href="./style.css">
     <!-- JavaScript File -->
     <script src="./script.js" defer></script>
-</head>
+    <link rel="stylesheet" text="text/CSS"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" text="text/CSS"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
 <body onload="myFunction()">
   <div class="loading-wrapper">
-    <img src="./logo.png" id="loading" />
+    <img src="/hackathon-project/images/logo.png" id="loading" />
   </div>
 
   <!-- Back to top button -->
-  <div id="back-top-div" class="back-top-wrap">
+  <a href="#header" id="back-top-div" class="back-top-wrap">
     <i class="fas fa-arrow-up"></i>
-  </div>
-  <header>
+  </a>
+  <header id="header">
     <nav class="nav" id="nav">
       <div>
-        <a class="navbar-brand" href="#!"> <img src="logo.png" alt="Logo" class="logo" /></a>
+        <a class="navbar-brand" href="#!"> <img src="/hackathon-project/images/logo.png" alt="Logo" class="logo" /></a>
       </div>
       <div class="nav-links" id="navLinks">
         <ul class="links" id="navmenu">
@@ -54,67 +60,29 @@
       </ul>
     </div>
     <div class="content">
-      <h1>Welcome to SUKOON</h1>
-      <div class="container">
-        <h3><span class="auto-type" style="font-size: 40px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"></a></span></h3>
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-      <script>
-        var typed = new Typed(".auto-type", {
-          strings: ["The one-step solution to get relief from your stress. Live a stress-free life!"],
-          typeSpeed: 50,
-          backspeed: 50,
-          loop: true
-        })
-      </script>
-      <a href="#services" class="rainbow-button" alt="Explore"></a>
+      <h1>Welcome to LifeLift</h1>
+      <h3>Transform your health, transform your life.</h3>
+      <a href="#services" class="button-34" alt="Explore">Explore</a>
     </div>
 
   </header>
 
   <!-- About Section -->
   <section id="about" class="about">
-    <h1 data-aos="flip-right">About Us</h1>
-    <div class="max-width">
-      <div data-aos="zoom-in" class="photo"><img src="./images/about.jpg" alt="" height="300px" width="330px"></div>
-      <div class="about-content">
-        <p data-aos="fade-left" class="text-1"> We are a team of open source contributors who have created this website
-          Sukoon with the aim to provide a <span>one step solution</span> to get relief from stress. </p>
-        <p data-aos="fade-left" class="text-3">We hope that everyone can live a <span>stress free life </span>with the
-          help of<span> sukoon.</span></p>
-      </div>
-    </div>
-    <h3><span style="color: rgb(91, 134, 150);">MEET OUR MEMBERS</span></h3>
+    <h3><span style="color: #08D9D6; font-size: 3.5rem;">MEET OUR MEMBERS</span></h3>
 
     <div class="box">
-
-      <!--         <div class="card">
-          <img src="./images/shayan.jpeg" alt="shayan" loading="lazy">
-          <h5>Shayan Pal</h5>
-          <div class="pra">
-            <p>Member</p>
-            <a href="https://bio.link/shayanpal"><button>Let's Connect</button></a>
-          </div>
-        </div> -->
-      <div data-aos="fade-up" ddata-aos-duration="800" class="card">
-        <img src="./images/soumyadeep.jpg" alt="soumyadeep" loading="lazy">
-        <h5>Soumyadeep Dhali</h5>
+      <div data-aos="fade-up" data-aos-duration="800" class="card">
+        <img src="./images/mk-p.png" alt="" loading="lazy">
+        <h5>Manish Kushwaha</h5>
         <div class="pra">
           <p>Member</p>
-          <a href="https://soumyadeep.bio.link"><button>Let's Connect</button></a>
-        </div>
-      </div>
-      <div data-aos="fade-up" data-aos-duration="800" class="card">
-        <img src="./images/susmita.jpg" alt="" loading="lazy">
-        <h5>Susmita Dey</h5>
-        <div class="pra">
-          <p>Head of The Team</p>
           <a href="https://bio.link/susmitadey"><button>Let's Connect</button></a>
         </div>
       </div>
       <div data-aos="fade-up" data-aos-duration="800" class="card">
-        <img src="./images/chaitri.jpg" alt="chaitri" loading="lazy">
-        <h5>Chaitri Saha Chowdhury</h5>
+        <img src="./images/ganesh.jpeg" alt="chaitri" loading="lazy">
+        <h5>Ganesh Mourya</h5>
         <div class="pra">
           <p class="p">Member</p>
           <a href="https://bio.link/chaitri"><button class="he">Let's Connect</button></a>
@@ -122,10 +90,9 @@
 
       </div>
 
-
       <div data-aos="fade-up" data-aos-duration="800" class="card">
-        <img src="./images/sasanka.jpg" alt="sasanka" loading="lazy">
-        <h5>Sasanka Kundu</h5>
+        <img src="./images/sanjiv.jpeg" alt="sasanka" loading="lazy">
+        <h5>Sanjiv Samal</h5>
         <div class="pra">
           <p>Member</p>
           <a href="https://bio.link/sasankakundu"><button>Let's Connect</button></a>
@@ -176,7 +143,7 @@
           <p>
             Yoga and exercise plays a very important role in our lives.
           </p>
-          <a href="html/yogatherapy.html">
+          <a href="/Pages/YogaTherapy/index.html">
             Let's Explore
           </a>
         </div>
@@ -268,74 +235,6 @@
     </div>
   </section>
 
-  <!-- Testimonials Section -->
-  <!-- Testimonials Section -->
-  <section id="testimonial" class="section-100">
-    <div class="testimonials_heading">
-      <h1>Testimonials</h1>
-    </div>
-    <div class="testimonial-view">
-      <div class="owl-carousel">
-        <div class="testimonial-box">
-
-          <figure class="testimonal-Card">
-            <blockquote> I've explored all therapy pages, but my fav one was audio therapy. It have different calming &
-              mood soothing sounds, there are also many podcasts as well. Sukoon website really helped me to get relief
-              from my stress.
-              <div class="arrow"></div>
-            </blockquote>
-            <img src="./images/Mohit.jpg" alt="sample3" />
-            <div class="author">
-              <h5>Mohit Namdev</h5>
-            </div>
-        </div>
-        <div class="testimonial-box">
-          <!-- <i class="fa fa-quote-left quote-icon"></i> -->
-          <figure class="testimonal-Card hover">
-            <blockquote> I'm really loving the laughing therapy and reading therapy pages. The standup videos present in
-              the laughing therapy page cheer me up, and the quotes present in the reading therapy page are really
-              motivating. <div class="arrow"></div>
-            </blockquote>
-            <img src="./images/vanshita.jpg" alt="sample47" />
-            <div class="author">
-              <h5>Vanshita Mathur</h5>
-            </div>
-          </figure>
-        </div>
-        <div class="testimonial-box">
-          <!-- <i class="fa fa-quote-left quote-icon"></i> -->
-          <figure class="testimonal-Card">
-            <blockquote>As a student, I love using this website, sukoon is like having a personal therapist. Features
-              and UI of the website is amazing and it really helped me to manage a lot of my anxiety and stress. I also
-              feel much supported by the lines of quotes than a human.
-              <div class="arrow"></div>
-            </blockquote>
-            <img src="./images/Shravani Kaware.jpg" alt="sample17" />
-            <div class="author">
-              <h5>Shravani Kaware</h5>
-            </div>
-          </figure>
-
-        </div>
-        <div class="testimonial-box">
-          <!-- <i class="fa fa-quote-left quote-icon"></i> -->
-          <figure class="testimonal-Card">
-            <blockquote>I'm really liking Audio, Reading and Yoga therapy because it's helpful for me during studying
-              time and last but not least Laughing therapy is also my favorite because whenever I am feeling lonely at
-              that time I am watching my childhoods cartoon show like Mr. bean and also watching memes.
-              <div class="arrow"></div>
-            </blockquote>
-            <img src="./images/Kelvin Parmar.jpg" alt="sample17" />
-            <div class="author">
-              <h5>Kelvin Parmar</h5>
-            </div>
-          </figure>
-
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
   <!-- Faq section -->
   <section class="faq">
     <div class="faq_heading">
@@ -498,11 +397,10 @@
       <!--logo and info column-->
       <div class="col">
         <!--logo insert-->
-        <img src="logo.png" alt="logo" class="footlogo" />
-        <div class="footercontent">
-          <h2 class="footerheading">Sukoon</h2>
-          <p class="footerpara">go stressfree</p>
-        </div>
+        <a href="#" style="text-decoration: none;" class="footercontent">
+          <h2 class="footerheading">LifeLift</h2>
+          <p class="footerpara">Go StressFree</p>
+        </a>
       </div>
 
       <!--ADDRESS COLUMN-->
@@ -513,8 +411,8 @@
             ADDRESS
             <div class="underline"><span></span></div>
           </h3>
-          <p>West Bengal,India</p>
-          <p class="email-id"><a href="mailto:sukoon665@gmail.com">sukoon665@gmail.com</a></p>
+          <p>Maharashtra,India</p>
+          <p class="email-id"><a href="mailto:lifelift@gmail.com">lifelift@gmail.com</a></p>
         </div>
         <!--HOME COLUMN-->
         <div class="col">
@@ -522,13 +420,13 @@
           <ul>
             <li><a href="#about">About Us</a></li>
             <li>
-              <a href="https://github.com/Susmita-Dey/Sukoon/blob/main/CODE_OF_CONDUCT.md">Code Of Conduct</a>
+              <a href="#">Code Of Conduct</a>
             </li>
             <li>
-              <a href="https://github.com/Susmita-Dey/Sukoon">Contribute</a>
+              <a href="https://github.com/illunise/hackathon-project">Contribute</a>
             </li>
             <li>
-              <a href="https://www.buymeacoffee.com/susmitadey">Donate</a>
+              <a href="#">Donate</a>
             </li>
           </ul>
         </div>
@@ -540,25 +438,25 @@
           </h3>
           <ul>
             <li>
-              <a href="https://sukoon-stress-free.netlify.app/html/audiotherapy">Audio Therapy</a>
+              <a href="">Audio Therapy</a>
             </li>
             <li>
-              <a href="https://sukoon-stress-free.netlify.app/html/yogatherapy.html">Yoga Therapy</a>
+              <a href="">Yoga Therapy</a>
             </li>
             <li>
-              <a href="https://sukoon-stress-free.netlify.app/html/readingtherapy">Reading Therapy</a>
+              <a href="">Reading Therapy</a>
             </li>
             <li>
-              <a href="https://sukoon-stress-free.netlify.app/html/talkingtherapy">Talking Therapy</a>
+              <a href="">Talking Therapy</a>
             </li>
             <li>
-              <a href="https://www.practo.com/counselling-psychology">Consult a Doctor</a>
+              <a href="">Consult a Doctor</a>
             </li>
             <li>
-              <a href="https://sukoon-stress-free.netlify.app/html/childTherapy">Child Therapy</a>
+              <a href="">Child Therapy</a>
             </li>
             <li>
-              <a href="https://sukoon-stress-free.netlify.app/html/spiritualTherapy">Spiritual Therapy</a>
+              <a href="">Spiritual Therapy</a>
             </li>
           </ul>
         </div>
@@ -570,13 +468,13 @@
           </h3>
           <div class="social-menu">
             <ul>
-              <a href="https://twitter.com/sukoon665" target="_blank">
+              <a href="https://twitter.com/illunise" target="_blank">
                 <li id="social-twitter"><i class="fab fa-2x fa-twitter"></i></li>
               </a>
-              <a href="https://github.com/Susmita-Dey/Sukoon" target="_blank">
+              <a href="https://github.com/illunise" target="_blank">
                 <li id="social-github"><i class="fab fa-2x fa-github"></i></li>
               </a>
-              <a href="https://www.linkedin.com/in/sukoon-web-820705238" target="_blank">
+              <a href="https://www.linkedin.com/in/illunise" target="_blank">
                 <li id="social-linkedin"><i class="fab fa-2x fa-linkedin-in"></i></li>
               </a>
             </ul>
@@ -588,6 +486,50 @@
   </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+
+    let preloader = document.querySelector(".loading-wrapper");
+    function myFunction() {
+      preloader.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    }
+    let navbar = document.querySelector("#nav");
+    let navmenu = document.querySelector("#navmenu");
+
+    window.onscroll = function () {
+      if (window.pageYOffset >= navmenu.offsetTop) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    };
+
+    window.onscroll = () => {
+      if (window.scrollY > 100) {
+        navbar.classList.add('nav-active');
+      } else {
+        navbar.classList.remove('nav-active');
+      }
+    };
+  </script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./serviceworker.js')
+          .then((reg) => console.log('Success', reg.scope))
+          .catch((err) => console.log('Error', err))
+      })
+    }
+  </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="index.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
