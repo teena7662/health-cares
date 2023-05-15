@@ -5,6 +5,7 @@ This repository contains the project for DevJam Season 1 Hackathon, held from Ma
 ## Table of Contents
 - [Introduction](#introduction)
 - [Team Memebrs](#team)
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -17,6 +18,12 @@ The Healthcare Website project was developed for the DevJam Season 1 Hackathon. 
 - [Manish Kushwaha](https://github.com/illunise "Manish Kushwaha")
 - [Ganesh Mourya](https://github.com/Alkaison "Ganesh Mourya")
 - [Sanjeev Samal](https://github.com/Sanjiv39 "Sanjeev Samal")
+
+## Screenshots
+![Cover Page]((https://i.postimg.cc/5N8bnDbz/Screenshot-2023-05-15-at-1-47-01-PM.png "Optional title")
+![Cover Page](https://i.postimg.cc/K8sqLvwD/Screenshot-2023-05-15-at-1-49-56-PM.png "Optional title")
+![Cover Page](https://i.postimg.cc/P5BbTL09/Screenshot-2023-05-15-at-1-50-02-PM.png "Optional title")
+![Cover Page](https://i.postimg.cc/d0PCgbyK/Screenshot-2023-05-15-at-1-50-17-PM.png "Optional title")
 
 ## Installation
 To set up the project locally, follow these steps:
