@@ -21,6 +21,9 @@ The Healthcare Website project was developed for the DevJam Season 1 Hackathon. 
 
 ## Screenshots
 ![Alt text](/Images/Screenshot%202023-05-15%20at%201.47.01%20PM-min.png?raw=true "Optional Title")
+![Alt text](/Images/Screenshot%202023-05-15%20at%201.49.56%20PM-min.png?raw=true "Optional Title")
+![Alt text](/Images/Screenshot%202023-05-15%20at%201.50.02%20PM-min.png?raw=true "Optional Title")
+![Alt text](/Images/Screenshot%202023-05-15%20at%201.50.17%20PM-min.png?raw=true "Optional Title")
 
 ## Installation
 To set up the project locally, follow these steps:
