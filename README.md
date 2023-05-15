@@ -20,10 +20,7 @@ The Healthcare Website project was developed for the DevJam Season 1 Hackathon. 
 - [Sanjeev Samal](https://github.com/Sanjiv39 "Sanjeev Samal")
 
 ## Screenshots
-![Cover Page]((https://i.postimg.cc/5N8bnDbz/Screenshot-2023-05-15-at-1-47-01-PM.png "Optional title")
-![Cover Page](https://i.postimg.cc/K8sqLvwD/Screenshot-2023-05-15-at-1-49-56-PM.png "Optional title")
-![Cover Page](https://i.postimg.cc/P5BbTL09/Screenshot-2023-05-15-at-1-50-02-PM.png "Optional title")
-![Cover Page](https://i.postimg.cc/d0PCgbyK/Screenshot-2023-05-15-at-1-50-17-PM.png "Optional title")
+![Alt text](/Images/Screenshot%202023-05-15%20at%201.47.01%20PM-min.png?raw=true "Optional Title")
 
 ## Installation
 To set up the project locally, follow these steps:
