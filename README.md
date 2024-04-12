@@ -18,8 +18,7 @@ The goal of this project is to provide users with a platform where they can acce
 - [Sanjeev Samal](https://github.com/Sanjiv39 "Sanjeev Samal")
 
 ## Screenshots
-![Alt text](/Images/Screenshot%202023-05-15%20at%201.47.01%20PM-min.png?raw=true "Optional Title")
-![Alt text](/Images/Screenshot%202023-05-15%20at%201.49.56%20PM-min.png?raw=true "Optional Title")
+
 ![Alt text](/Images/Screenshot%202023-05-15%20at%201.50.02%20PM-min.png?raw=true "Optional Title")
 ![Alt text](/Images/Screenshot%202023-05-15%20at%201.50.17%20PM-min.png?raw=true "Optional Title")
 
