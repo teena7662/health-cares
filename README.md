@@ -19,8 +19,8 @@ The goal of this project is to provide users with a platform where they can acce
 
 ## Installation
 To set up the project locally, follow these steps:
-1. Clone the repository: `git clone https://github.com/illunise/hackathon-project.git`
-2. Navigate to the project directory: `cd hackathon-project`
+1. Clone the repository: `git clone https://github.com/teena7662/health-cares.git`
+2. Navigate to the project directory: `cd health-cares`
 
 ## Contributing
 Contributions to the project are welcome. If you want to contribute, please follow these steps:
