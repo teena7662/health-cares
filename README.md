@@ -2,7 +2,6 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Team Memebrs](#team)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Contributing](#contributing)
