@@ -11,11 +11,7 @@
 ## Introduction
 The goal of this project is to provide users with a platform where they can access therapy services to overcome personal problems and improve their overall health. The website is designed to be user-friendly and offers a range of features to enhance the user's experience.
 
-## Team Members
 
-- [Manish Kushwaha](https://github.com/illunise "Manish Kushwaha")
-- [Ganesh Mourya](https://github.com/Alkaison "Ganesh Mourya")
-- [Sanjeev Samal](https://github.com/Sanjiv39 "Sanjeev Samal")
 
 ## Screenshots
 
