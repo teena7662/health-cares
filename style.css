@@ -511,12 +511,12 @@ nav .fa {
   font-weight: 600;
 }
 
-.box {
+/* .box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   padding: 5.5rem;
-}
+} */
 @media screen and (max-width: 1336px) and (min-width: 600px) {
   .box {
     gap: 1rem;
@@ -568,14 +568,14 @@ h5 {
   margin-bottom: 15px;
 }
 
-.pra p {
+/* .pra p {
   color: #fcfc;
   font-size: 16px;
   line-height: 27px;
   margin-bottom: 25px;
-}
+} */
 
-.pra button {
+/* .pra button {
   padding: 0.5rem 1rem;
   border: 2px solid #f9004d;
   background-color: #fff;
@@ -586,15 +586,15 @@ h5 {
   font-weight: 500;
   cursor: pointer;
   margin-bottom: 1rem;
-}
-.p {
+} */
+/* .p {
   margin-top: -24px;
-}
-.pra button:hover {
+} */
+/* .pra button:hover {
   background-color: #f9004d;
   color: #fff;
   transition: 0.3s;
-}
+} */
 .footerpara {
   white-space: nowrap;
 }
